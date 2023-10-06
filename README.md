@@ -3,8 +3,7 @@ This project was created to academic goals, test the main components of Xamarin
 ## How it´s Works
 I decided divide this project in module
 - [ ] LayOuts 
-    - [ ] ContentView
-    - [ ] Frame 
+    - [x] ContentView
     - [ ] ScrollView 
     - [ ] TemplatedView 
     - [ ] ContentPresenter 
@@ -23,12 +22,13 @@ I decided divide this project in module
 - [ ] Views 
     - [ ] BoxView 
     - [ ] Ellipse 
-    - [ ] Label 
+    - [x] Label 
     - [ ] Line 
     - [ ] Image 
     - [ ] Map 
     - [ ] OpenGLView 
     - [ ] Path 
+    - [ ] Frame 
     - [ ] Polygon 
     - [ ] Polyline 
     - [ ] Rectangle 
