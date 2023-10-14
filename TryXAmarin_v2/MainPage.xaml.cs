@@ -22,7 +22,7 @@ namespace TryXAmarin_v2
 
         private void Views_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new ViewsComponents());
+            Navigation.PushModalAsync(new ViewsPages());
         }
     }
 }

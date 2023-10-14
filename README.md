@@ -20,19 +20,23 @@ I decided divide this project in module
     - [ ] CarouselPage 
     - [ ] TemplatedPage 
 - [ ] Views 
-    - [ ] BoxView 
-    - [ ] Ellipse 
+    - [x] BoxView 
+    - [x] Ellipse 
     - [x] Label 
-    - [ ] Line 
-    - [ ] Image 
-    - [ ] Map 
-    - [ ] OpenGLView 
-    - [ ] Path 
+    - [x] Line 
+    - [x] Image 
+    - [x] Map 
+    - [x] OpenGLView 
+    - [x] Path 
     - [ ] Frame 
-    - [ ] Polygon 
-    - [ ] Polyline 
+    - [x] Polygon 
+    - [x] Polyline 
     - [ ] Rectangle 
     - [ ] WebView 
+    - [x] Button
+    - [x] ImageButton 
+    - [x] RefreshView 
+    - [x] SearchBar 
 - [ ] Cells 
     - [ ] TextCell 
     - [ ] ImageCell 

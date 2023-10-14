@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TryXAmarin_v2.ViewsPage.ViewsComponents_">
+    <ScrollView>
+        <StackLayout Background="Yellow">
+            <Label Text="Explore TextDecorations Property" TextColor="Red" HorizontalTextAlignment="Center" />
+            <Label Text="Underline Text" TextDecorations="Underline" FontSize="20" />
+            <Label Text="Strikethrough Text" TextDecorations="Strikethrough" FontSize="20" />
+            <Label Text="Strikethrough asnd Underline Text" TextDecorations="Strikethrough" FontSize="20" />
+
+            <Label Text="Explore TextTransform Property" TextColor="Red" HorizontalTextAlignment="Center" />
+            <Label Text="TextTransform UpperCase" TextTransform="Uppercase" />
+            <Label Text="TextTransform Lowercase" TextTransform="Lowercase" />
+
+            <BoxView Color="Blue"
+                   CornerRadius="10"
+                   WidthRequest="180"
+                   HeightRequest="180"
+                   VerticalOptions="Fill"
+                   HorizontalOptions="Fill"/>
+            <Line 
+              Stroke="red"
+              X1="90"
+              Y1="0"
+              Y2="220"
+              X2="0"
+              />
+
+            <Ellipse Fill="red"
+                   WidthRequest="150"
+                   HeightRequest="50"
+                   HorizontalOptions="Start" />
+
+            <Ellipse Stroke="red"
+                   StrokeThickness="4"
+                   WidthRequest="250"
+                   HeightRequest="50"
+                   HorizontalOptions="Start" />
+
+            <SearchBar Placeholder="Pesquisar..." />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

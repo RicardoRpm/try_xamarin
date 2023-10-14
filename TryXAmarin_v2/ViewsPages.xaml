@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TryXAmarin_v2.ViewsPages">
+    <StackLayout Padding="10">
+        <Button Text="Diversos Views " x:Name="DiversosViews" CornerRadius="10" TextColor="White" BackgroundColor="#2196F3" Clicked="DiversosViews_Clicked"/>
+        <Button Text="Rotar texto" x:Name="btnRotarTexto" IsEnabled="False" Clicked="btnRotarTexto_Clicked" />
+
+    </StackLayout>
+</ContentPage>
